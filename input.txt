@@ -1,0 +1,25 @@
+
+ !------------------------------------------------------------------------------
+ ! Main settings 
+ !------------------------------------------------------------------------------
+ &main_settings
+
+    path = 'data/runAI_test/'
+
+    nx = 1001
+    xMax = 5.5
+    m = 60
+/
+ !------------------------------------------------------------------------------
+ ! System Parameters
+ !------------------------------------------------------------------------------
+ &params
+
+	mAOmI = 1  	! mass ratio between m_atom and m_ion
+        g     = 4	! interatomic interaction strength
+
+	v0    = 250	! barrier height
+	omega = 80	! short range cut of energy
+	gamma = 1	! barrier width
+ 	l     = 1.0	! trap length
+/
